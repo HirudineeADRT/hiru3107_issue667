@@ -1,0 +1,185 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "18efbc22-25c8-4ddc-accb-7d4c6726df43": {
+        "id": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+        "parent": null,
+        "name": "hiru3107_issue667",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b2ef01a7-6295-4ceb-b741-1e5c88129ef5",
+          "a99be40f-af3c-4219-8d09-1c457c3a19d7",
+          "8f8ca622-f3fd-445d-91f9-a05531a8b1e0",
+          "41253897-fb1a-4237-856d-5b7d42cd3e85",
+          "62f8b362-d51e-420b-9f83-41c2d185335c"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru3107_issue667"
+      },
+      "b2ef01a7-6295-4ceb-b741-1e5c88129ef5": {
+        "id": "b2ef01a7-6295-4ceb-b741-1e5c88129ef5",
+        "parent": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "a99be40f-af3c-4219-8d09-1c457c3a19d7": {
+        "id": "a99be40f-af3c-4219-8d09-1c457c3a19d7",
+        "parent": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+        "name": "python27.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/python27.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "8f8ca622-f3fd-445d-91f9-a05531a8b1e0": {
+        "id": "8f8ca622-f3fd-445d-91f9-a05531a8b1e0",
+        "parent": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/__init__.py",
+        "code": ""
+      },
+      "41253897-fb1a-4237-856d-5b7d42cd3e85": {
+        "id": "41253897-fb1a-4237-856d-5b7d42cd3e85",
+        "parent": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+        "name": "python36.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/python36.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python3.6",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "62f8b362-d51e-420b-9f83-41c2d185335c": {
+        "id": "62f8b362-d51e-420b-9f83-41c2d185335c",
+        "parent": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+        "name": "sample",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ccb04eb5-1397-425f-b961-f446daba2020",
+          "58ee0dbe-7ee8-4699-a4cc-967a8b06211f"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/sample"
+      },
+      "ccb04eb5-1397-425f-b961-f446daba2020": {
+        "id": "ccb04eb5-1397-425f-b961-f446daba2020",
+        "parent": "62f8b362-d51e-420b-9f83-41c2d185335c",
+        "name": "add.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/sample/add.py",
+        "code": "def add(x, y):\r\n   return x + y"
+      },
+      "58ee0dbe-7ee8-4699-a4cc-967a8b06211f": {
+        "id": "58ee0dbe-7ee8-4699-a4cc-967a8b06211f",
+        "parent": "62f8b362-d51e-420b-9f83-41c2d185335c",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3107_issue667/sample/__init__.py",
+        "code": ""
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "18efbc22-25c8-4ddc-accb-7d4c6726df43",
+    "openFiles": [
+      "b2ef01a7-6295-4ceb-b741-1e5c88129ef5",
+      "a99be40f-af3c-4219-8d09-1c457c3a19d7",
+      "41253897-fb1a-4237-856d-5b7d42cd3e85",
+      "ccb04eb5-1397-425f-b961-f446daba2020"
+    ],
+    "currentFileId": "a99be40f-af3c-4219-8d09-1c457c3a19d7",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "a99be40f-af3c-4219-8d09-1c457c3a19d7",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/hiru3107_issue667",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "41253897-fb1a-4237-856d-5b7d42cd3e85",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/hiru3107_issue667",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru3107_issue667",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564635147937
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru3107_issue667",
+      "url": "https://github.com/HirudineeADRT/hiru3107_issue667",
+      "branches": []
+    }
+  }
+}
